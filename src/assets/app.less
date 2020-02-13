@@ -1,0 +1,75 @@
+a {
+  color: inherit !important;
+}
+
+.page {
+  background-color: inherit;
+}
+
+.md .item-input-focused:not(.item-input-outline) .item-input-wrap:after, .md .input-focused:not(.input-outline):after {
+  background: none !important;
+}
+
+:root, body.app_light {
+  --headerHeight: 45px;
+  --footerHeight: 51px;
+  --primary_accent_color: rgb(244, 96, 96);
+  --f7-tabbar-icon-size: 24px;
+  --f7-menu-bg-color: rgba(21, 21, 21, 0.87);
+  --f7-menu-text-color: rgba(255,255,255,0.9);
+  --f7-menu-item-border-radius: 12px;
+  --f7-list-border-color: rgba(0,0,0,0.08);
+  --f7-list-border-color: rgba(0,0,0,0.08);
+
+  --mainBackgroundColor: #FFF9FB;
+  --headerBackgroundColor: white;
+  --headerBorderColor: rgba(0,0,0,0.08);
+  --textColor: #000;
+  --logo: url("../assets/logo_w.svg");
+  --itemBorderColor: rgba(0,0,0,0.05);
+  --itemBackgroundColor: white;
+  --footerBackgroundColor: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, #fffbfb 100%);
+  --footerBorderColor: rgba(0,0,0,0.06);
+  --isEmptyHandlerBackground: rgb(255, 242, 242);
+  --isEmptyHandlerColor: rgb(227, 167, 167);
+  --isEmptyHandlerBorderColor: rgba(177, 150, 150, 0.16);
+  --footerIconColor: #333;
+}
+
+body.app_dark {
+  --mainBackgroundColor: #151515 !important;
+  --headerBackgroundColor: rgba(0,0,0,0.5) !important;
+  --headerBorderColor: transparent;
+  --textColor: white;
+  --itemBorderColor: rgb(30, 30, 30);
+  --itemBackgroundColor: rgb(23, 23, 23);
+  --logo: url("../assets/logo_white.svg");
+  --footerBackgroundColor: rgba(0,0,0,0.5);
+  --footerBorderColor: #000;
+  --primary_accent_color: rgb(255, 235, 59);
+  --isEmptyHandlerBackground: transparent;
+  --isEmptyHandlerColor: white;
+  --isEmptyHandlerBorderColor: #333;
+  --footerIconColor: rgba(255,255,255,0.9);
+  --f7-list-border-color: gray;
+  --f7-list-border-color: gray;
+}
+
+#root {
+  margin: auto;
+}
+
+body {
+  background-color: var(--mainBackgroundColor) !important;
+  font-family: 'Rubik', serif;
+  font-weight: normal;
+}
+
+.tabbar i.icon, .tabbar-labels i.icon {
+  padding-top: 3px !important;
+  padding-bottom: 1px !important;
+}
+
+.page {
+  background-color: inherit !important;
+}
